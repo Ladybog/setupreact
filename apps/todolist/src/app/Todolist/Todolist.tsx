@@ -76,7 +76,7 @@ export function Todolist(props: TodolistProps) {
         onChange={(e) => setText(e.target.value)}
       />
       <button type="button" onClick={addTodo}>
-        Add todo
+        Legg til todo
       </button>
     </div>
   );
